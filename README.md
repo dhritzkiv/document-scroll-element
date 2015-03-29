@@ -47,11 +47,11 @@ This will add `getDocumentScrollElement` to the `window` object.
 
 ## Browserify
 
-###Install
+### Install
 
 	npm install document-scroll-element
 
-###Require
+### Require
 
 	var getDocumentScrollElement = require("document-scroll-element");
 	
