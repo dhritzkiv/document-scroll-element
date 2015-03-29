@@ -1,0 +1,18 @@
+{
+  "name": "document-scroll-element",
+  "version": "1.0.0",
+  "description": "Determines the document element that is scrollable",
+  "main": "document-scroll-element.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "document",
+    "scroll",
+    "dom",
+    "documentElement",
+    "body"
+  ],
+  "author": "Daniel Hritzkiv <daniel.hritzkiv@gmail.com>",
+  "license": "MIT"
+}
