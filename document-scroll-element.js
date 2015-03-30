@@ -30,8 +30,8 @@ var getDocumentScrollElement = (function() {
 	
 		callback = typeof callback === "function" ? callback : function() {};
 		
-		if (window.scrollElement) {
-			return callback(window.scrollElement);
+		if (document.scrollElement) {
+			return callback(document.scrollElement);
 		}
 		
 		var callbackWithElement = function() {
