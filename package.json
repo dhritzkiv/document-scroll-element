@@ -1,6 +1,6 @@
 {
   "name": "document-scroll-element",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Determines the document element that is scrollable",
   "main": "document-scroll-element.js",
   "scripts": {
