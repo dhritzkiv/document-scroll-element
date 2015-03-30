@@ -21,7 +21,7 @@ _Note: this does not require jQuery; the above is simply a common use-case_
 - automatically sets `document.scrollElement` to the correct scrolling element
 - also accepts a callback function, where the sole argument is the scrolling element
 
-_Note: this function is asynchronous as it waits on the document to become interactive._
+_Note: this function is synchronous if called after the DOM's `readyState` is `interactive`, but asynchronous if called before, hence the ability to pass a callback._
 
 ## Example
 
