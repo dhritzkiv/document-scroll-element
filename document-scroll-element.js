@@ -13,7 +13,7 @@ var getDocumentScrollElement = (function() {
 		
 		//try scrolling the body element by one pixel
 		var startingScrollTop = body.scrollTop;
-		var targetScroll = startingScrollTop + 1
+		var targetScroll = startingScrollTop + 1;
 		body.scrollTop = targetScroll;
 		
 		//if scrolling on `document.body` element worked, checking the `scrollTop` getter will return the the expected value, confirming this is the scrollable element;
