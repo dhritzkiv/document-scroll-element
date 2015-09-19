@@ -1,3 +1,5 @@
+## Note: this code is obsoleted by [mathiasbynens/document.scrollingElement](https://github.com/mathiasbynens/document.scrollingElement), which is closer polyfill for the [scrollingElement spec](https://developer.mozilla.org/en-US/docs/Web/API/document/scrollingElement), is more comprehensive, and handles edge-cases better.
+
 # document-scroll-element
 
 Different browsers scroll the page using different elements. For example, Firefox scrolls on `document.documentElement` (`<html>`), while Safari scrolls on `document.body` (`<body>`).
